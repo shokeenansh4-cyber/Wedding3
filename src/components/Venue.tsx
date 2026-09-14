@@ -29,7 +29,7 @@ export default function Venue() {
   }, []);
 
   return (
-    <section className="venue-section" data-testid="venue-section">
+    <section className="venue-section theme-red" data-testid="venue-section">
       <div className="venue-mandala venue-mandala-1" />
       <div className="venue-mandala venue-mandala-2" />
       <div className="venue-mandala venue-mandala-3" />

@@ -11,7 +11,6 @@ import Venue from "@/components/Venue";
 import Footer from "@/components/Footer";
 import FloatingPetals from "@/components/FloatingPetals";
 import ScrollReveal from "@/components/ScrollReveal";
-import SideLamps from "@/components/SideLamps";
 
 export default function Home() {
   const [opened, setOpened] = useState(false);
@@ -30,7 +29,6 @@ export default function Home() {
         <>
           <ScrollReveal />
           <FloatingPetals />
-          <SideLamps />
 
           <div id="home">
             <Hero />

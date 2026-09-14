@@ -47,7 +47,7 @@ export default function Countdown() {
   ];
 
   return (
-    <section className="countdown-section" data-testid="countdown-section">
+    <section className="countdown-section theme-red" data-testid="countdown-section">
       <div className="countdown-mandala countdown-mandala-1" />
       <div className="countdown-mandala countdown-mandala-2" />
 

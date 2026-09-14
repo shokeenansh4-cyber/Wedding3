@@ -2,7 +2,7 @@
 
 export default function Hero() {
   return (
-    <section className="hero-section" data-testid="hero-section">
+    <section className="hero-section theme-red" data-testid="hero-section">
       <div className="hero-mandala hero-mandala-1" />
       <div className="hero-mandala hero-mandala-2" />
       <div className="hero-mandala hero-mandala-3" />

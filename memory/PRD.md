@@ -84,3 +84,11 @@ Ask: keep ALL info unchanged, greatly improve the UI, add wedding animations
   0.35): counts alternate 1 -> 3 per section (home=1, invitation=3, countdown=1,
   family=3, venue=1, footer=3) with a 0.7s fade. Middle lamp at count 1, all
   three at count 3. Footer got id="footer". Verified iteration_6: 100% pass.
+
+## Red-Gold Theme + Lamp Removal (2026-06, v8)
+- REMOVED SideLamps entirely (user didn't like the look) — component + CSS gone.
+- Added red+gold pattern: .theme-red class on Hero (1st), Countdown (3rd),
+  Venue (5th) -> deep maroon gradient (#5a2530 -> #431a22) with cream #f5e6c9
+  text and gold #c9a24b accents; Invitation (2nd) & Family (4th) stay cream;
+  Footer already maroon. Overrides live at end of enhancements.css.
+  Verified iteration_7: 100% pass, lamps gone, no overflow.
