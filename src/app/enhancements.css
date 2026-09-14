@@ -1229,8 +1229,25 @@ body {
   50% { transform: translateX(-50%) translateY(-7px); }
 }
 
-/* Hide on smaller screens where content fills the width */
-@media (max-width: 1150px) {
+/* Medium screens: smaller lamps, still visible */
+@media (max-width: 1300px) {
+  .side-lamps {
+    width: 112px;
+  }
+  .side-lamps-left {
+    left: 6px;
+  }
+  .side-lamps-right {
+    right: 6px;
+  }
+  .lamp-medallion {
+    width: 88px;
+    height: 88px;
+  }
+}
+
+/* Hide only on tablets/phones where content fills the width */
+@media (max-width: 900px) {
   .side-lamps {
     display: none;
   }

@@ -72,3 +72,9 @@ Ask: keep ALL info unchanged, greatly improve the UI, add wedding animations
   right), fixed position, warm flickering glow + gentle sway, pointer-events
   none, z-index 5, hidden under 1150px. Diya image is AI-generated (JPEG, full
   scene) framed in circles. Verified iteration_4: 100% pass.
+
+## Lamp Visibility Fix (2026-06, v6)
+- Bug: user reported lamps not showing — they were hidden under 1150px viewport
+  (user's laptop CSS width likely < 1150 due to display scaling). Fix: lamps now
+  visible down to 900px (88px medallions 900-1300px, 118px above), hidden only
+  under 900px. Verified iteration_5 across 820/1024/1100/1440px: 100% pass.
