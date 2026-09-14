@@ -2,7 +2,7 @@
 
 export default function Footer() {
   return (
-    <footer className="site-footer" data-testid="site-footer">
+    <footer className="site-footer" id="footer" data-testid="site-footer">
       <div className="footer-mandala" />
       <div className="footer-inner" data-reveal>
         <span className="footer-om">ॐ</span>

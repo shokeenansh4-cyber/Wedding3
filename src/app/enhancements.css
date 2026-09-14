@@ -1174,10 +1174,12 @@ body {
   height: 118px;
   border-radius: 50%;
   transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.7s ease;
 }
-.side-lamps .lamp-medallion:nth-child(1) { top: 10%; }
-.side-lamps .lamp-medallion:nth-child(2) { top: 42%; }
-.side-lamps .lamp-medallion:nth-child(3) { top: 74%; }
+.lamp-medallion.is-on {
+  opacity: 1;
+}
 
 .lamp-image {
   width: 100%;

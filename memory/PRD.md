@@ -78,3 +78,9 @@ Ask: keep ALL info unchanged, greatly improve the UI, add wedding animations
   (user's laptop CSS width likely < 1150 due to display scaling). Fix: lamps now
   visible down to 900px (88px medallions 900-1300px, 118px above), hidden only
   under 900px. Verified iteration_5 across 820/1024/1100/1440px: 100% pass.
+
+## Dynamic Section Lamps (2026-06, v7)
+- SideLamps now respond to the section in view (IntersectionObserver, threshold
+  0.35): counts alternate 1 -> 3 per section (home=1, invitation=3, countdown=1,
+  family=3, venue=1, footer=3) with a 0.7s fade. Middle lamp at count 1, all
+  three at count 3. Footer got id="footer". Verified iteration_6: 100% pass.
