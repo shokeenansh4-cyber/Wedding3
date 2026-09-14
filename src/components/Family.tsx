@@ -3,11 +3,11 @@
 export default function Family() {
   const families = [
     {
-      side: "THE BRIDE'S FAMILY",
+      side: "THE GROOM'S FAMILY",
       parents: ["Mrs. Kalyani Jha", "Mr. Rakesh Roshan Jha"],
     },
     {
-      side: "THE GROOM'S FAMILY",
+      side: "THE BRIDE'S FAMILY",
       parents: ["Mrs. Pragya Jha", "Dr. Mithilesh K. Thakur"],
     },
   ];
